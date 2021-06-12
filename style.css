@@ -5,8 +5,12 @@
 }
 body{
     font-family: 'Merriweather', serif;
-    background-color: #c7d7f7;
+    background-color: #d9e4fa;
 
+}
+.container{
+    max-width: 100%;
+    padding: 0 20px;
 }
 .navbar{
     display: flex;
@@ -36,6 +40,15 @@ body{
 .nav__item:hover{
     border: 2px solid rgb(209, 174, 241);
   
+}
+.hero__image__container{
+    width: 100%;
+}
+.hero__image{
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+
 }
 @media(min-width:768px){
     .navbar{
